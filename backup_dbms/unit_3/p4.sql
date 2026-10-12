@@ -1,3 +1,8 @@
+/* 
+Write a trigger that restricts the entry of record if salary is greater than
+Rs.50000.
+*/
+
 CREATE OR REPLACE TRIGGER trigger_4
 AFTER INSERT OR UPDATE ON emp
 FOR EACH ROW
